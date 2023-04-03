@@ -21,7 +21,7 @@ class ApiTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("ivan"))
+                .body("data", equalTo("Ivan"))
         ;
     }
 
